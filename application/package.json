@@ -1,0 +1,24 @@
+{
+  "name": "application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node scr/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "matheus henrique soares",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "restify": "^8.5.1",
+    "restify-errors": "^8.0.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.15.0",
+    "nodemon": "^2.0.12"
+  }
+}
