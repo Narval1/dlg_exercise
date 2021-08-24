@@ -11,11 +11,6 @@ export const removeDuplicate = (req, res) => {
 }
 
 export const changeVowals = (req, res) => {
-  // body validations
-  if (!req.body.letter.trim() && !req.body.phrase.trim()) return res.json({ error: 'empty body' })
-  if (!req.body.phrase.trim()) return res.json({ error: 'blank sentence' })
-  if (!req.body.letter.trim()) return res.json({ error: 'inform the desired letter' })
-
   // gets the phrase and the letter without blank spaces in the beginning or in the end
   const phrase = req.body.phrase.trim()
   const letter = req.body.letter.trim()
