@@ -1,18 +1,18 @@
 {
   "name": "application",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "back-end API used as an exercise",
+  "main": "scr/index.js",
   "scripts": {
     "start": "nodemon --exec babel-node scr/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "matheus henrique soares",
+  "repository": "https://github.com/Narval1/dlg_exercise",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^10.0.0",
-    "restify": "^8.5.1",
-    "restify-errors": "^8.0.2"
+    "restify": "^8.5.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.14.8",
