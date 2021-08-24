@@ -1,5 +1,6 @@
 # dlg back-end API
 ##### this is the dlg back-end API exercise
+##### don't forget to enter the dlg_exercise/application directory before following the commands below
 ## Running the application
 ### 0 - install all dependencies
 ##### install all dependencies with the following command:
